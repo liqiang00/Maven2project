@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE ejb-jar PUBLIC '-//Sun Microsystems, Inc.//DTD Enterprise JavaBeans 2.0//EN' 'http://java.sun.com/dtd/ejb-jar_2_0.dtd' >
+
+<ejb-jar>
+    <description>Hai EJB instance.</description>
+    <display-name>Hai EJB</display-name>
+    <enterprise-beans>
+        <session>
+            <ejb-name>HaiEJB</ejb-name>
+            <home>com.johny.ejb2.HaiHome</home>
+            <remote>com.johny.ejb2.HaiRemote</remote>
+            <ejb-class>com.johny.ejb2.HaiBean</ejb-class>
+            <session-type>Stateful</session-type>
+            <transaction-type>Bean</transaction-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>

@@ -4,7 +4,6 @@
 
   <groupId>com.johny.app</groupId>
   <artifactId>Maven2project</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>Maven2project</name>
@@ -20,6 +19,19 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
+  </dependency>
+      <dependency>
+      <groupId>jboss</groupId>
+      <artifactId>jboss-j2ee</artifactId>
+      <version>4.0.2</version>
+  </dependency>
+
+
+<dependency>
+  <groupId>jboss</groupId>
+  <artifactId>jbossall-client</artifactId>
+  <version>4.2.2.GA</version>
+</dependency>
   </dependencies>
+  <version>0.1</version>
 </project>
