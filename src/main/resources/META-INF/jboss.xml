@@ -5,6 +5,7 @@
         <session>
             <ejb-name>HaiEJB</ejb-name>
             <jndi-name>HaiEJB</jndi-name>
+            <local-jndi-name>HaiEJBLocal</local-jndi-name>
         </session>
     </enterprise-beans>
 </jboss>

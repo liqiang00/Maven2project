@@ -4,5 +4,5 @@ import javax.ejb.EJBObject;
 
 public interface HaiRemote extends EJBObject
 {
-    String sayHai() throws RemoteException;
+    public String sayHai() throws RemoteException;
 }

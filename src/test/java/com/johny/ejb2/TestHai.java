@@ -26,8 +26,20 @@ public class TestHai {
             HaiHome home = (HaiHome) PortableRemoteObject.narrow(objRef, HaiHome.class);
            
             HaiRemote remote = home.create();
-           
+            
             System.out.println(remote.sayHai());
+            
+            System.out.println("local started");
+            
+            InitialContext ctxlocal = new InitialContext();
+            
+            HaiLocalHome localhome= (HaiLocalHome)  ctxlocal.lookup("HaiEJBLocal");
+            
+            HaiLocal local=localhome.create();
+            
+           
+           
+            System.out.println(local.sayHai());
         }
         catch (Exception ex)
         {

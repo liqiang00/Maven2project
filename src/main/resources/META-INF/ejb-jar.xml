@@ -11,6 +11,8 @@
             <ejb-name>HaiEJB</ejb-name>
             <home>com.johny.ejb2.HaiHome</home>
             <remote>com.johny.ejb2.HaiRemote</remote>
+            <local-home>com.johny.ejb2.HaiLocalHome</local-home>
+            <local>com.johny.ejb2.HaiLocal</local>
             <ejb-class>com.johny.ejb2.HaiBean</ejb-class>
             <session-type>Stateful</session-type>
             <transaction-type>Bean</transaction-type>
