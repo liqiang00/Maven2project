@@ -1,11 +1,8 @@
 package com.johny.ejb2;
 import java.util.Properties;
-import javax.ejb.CreateException;
 import javax.naming.InitialContext;
-import javax.naming.NamingException;
 import javax.rmi.PortableRemoteObject;
-import java.rmi.RemoteException;
-import com.johny.ejb2.*;
+
 
 
 public class TestHai {
