@@ -7,7 +7,12 @@ import javax.ejb.SessionContext;
 public class HaiBean implements SessionBean
 {
 
-    public void setSessionContext(SessionContext arg0) throws EJBException, RemoteException
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public void setSessionContext(SessionContext arg0) throws EJBException, RemoteException
     {
         System.out.println("set session context");
     }

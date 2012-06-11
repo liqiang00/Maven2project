@@ -26,9 +26,9 @@ public class TestHai {
             
             System.out.println(remote.sayHai());
             
-            System.out.println("local started");
+           // System.out.println("local started");
             
-            InitialContext ctxlocal = new InitialContext();
+          //  InitialContext ctxlocal = new InitialContext();
             
        //     HaiLocalHome localhome= (HaiLocalHome)  ctxlocal.lookup("HaiEJBLocal");
             
