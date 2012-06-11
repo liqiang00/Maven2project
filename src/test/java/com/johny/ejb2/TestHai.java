@@ -26,16 +26,13 @@ public class TestHai {
             
             System.out.println(remote.sayHai());
             
-            System.out.println("local started");
-           
+            Object objRef2 = ctx.lookup("TestEJB");
             
-            HaiLocalHome localhome= (HaiLocalHome)  ctx.lookup("HaiEJBLocal");
+            TestHome home2 = (TestHome) PortableRemoteObject.narrow(objRef2, TestHome.class);    
             
-            HaiLocal local=localhome.create();
+            TestRemote remote2 = home2.create();
             
-           
-           
-            System.out.println(local.sayHai());
+            System.out.println(remote2.InvokeLocal());        
         }
         catch (Exception ex)
         {
