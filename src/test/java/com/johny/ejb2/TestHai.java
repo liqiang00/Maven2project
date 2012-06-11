@@ -30,13 +30,13 @@ public class TestHai {
             
             InitialContext ctxlocal = new InitialContext();
             
-            HaiLocalHome localhome= (HaiLocalHome)  ctxlocal.lookup("HaiEJBLocal");
+       //     HaiLocalHome localhome= (HaiLocalHome)  ctxlocal.lookup("HaiEJBLocal");
             
-            HaiLocal local=localhome.create();
+        //    HaiLocal local=localhome.create();
             
            
            
-            System.out.println(local.sayHai());
+         //   System.out.println(local.sayHai());
         }
         catch (Exception ex)
         {
