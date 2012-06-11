@@ -10,7 +10,7 @@ public class HaiBean implements SessionBean
     /**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 2365907040465752270L;
 
 	public void setSessionContext(SessionContext arg0) throws EJBException, RemoteException
     {
