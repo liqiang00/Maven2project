@@ -17,5 +17,13 @@
             <session-type>Stateful</session-type>
             <transaction-type>Bean</transaction-type>
         </session>
+        <session>
+            <ejb-name>TestEJB</ejb-name>
+            <home>com.johny.ejb2.TestHome</home>
+            <remote>com.johny.ejb2.TestRemote</remote>
+            <ejb-class>com.johny.ejb2.TestBean</ejb-class>
+            <session-type>Stateful</session-type>
+            <transaction-type>Bean</transaction-type>
+        </session>
     </enterprise-beans>
 </ejb-jar>
