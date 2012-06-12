@@ -3,5 +3,5 @@ import javax.ejb.EJBLocalObject;
 
 public interface HaiLocal extends EJBLocalObject
 {
-	public String sayHai() throws Exception;
+	public String sayHai();
 }
